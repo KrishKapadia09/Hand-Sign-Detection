@@ -1,0 +1,45 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / IDE configs
+.vscode/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Model weights & checkpoints
+*.pt
+*.pth
+
+# YOLO / Ultralytics cache
+*.cache
+runs/
+train*/  # folders like train, train5-*
+
+# Zipped data or label archives
+*.zip
+
+# Logs & outputs
+*.log
+
+# YAML files for data configs (optional if custom/private)
+data/*.yaml
+
+# Temporary/experiment folders
+test/
+test*/ 
+Project demo/
+reference/
